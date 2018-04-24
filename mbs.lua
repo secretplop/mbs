@@ -1,6 +1,6 @@
 local arg = table.pack(...)
 local root_dir = ".mbs"
-local repo_url = "https://raw.githubusercontent.com/SquidDev-CC/mbs/master/"
+local repo_url = "https://raw.githubusercontent.com/secretplop/mbs/master/"
 
 --- Write a string with the given colour to the terminal
 local function write_coloured(colour, text)
