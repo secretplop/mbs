@@ -1,6 +1,11 @@
+## MBS is made by SquidDev. This is an edited copy!
+## Please use the original at https://github.com/SquidDev-CC/mbs
+## Please ignore whatever horrors may hide in this fork
+
 # Mildly better shell
 
 MBS is a series of utilities for improving the default CraftOS experience.
+
 
 ## Features
 
@@ -32,6 +37,6 @@ MBS is a series of utilities for improving the default CraftOS experience.
 ![](img/24-shell-deep-error.png "A program with a large stack trace erroring")
 
 ## Install
- - `wget https://raw.githubusercontent.com/SquidDev-CC/mbs/master/mbs.lua mbs.lua`
+ - `wget https://raw.githubusercontent.com/secretplop/mbs/master/mbs.lua mbs.lua`
  - `mbs.lua install`
  - Restart your computer
