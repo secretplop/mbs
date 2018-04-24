@@ -637,6 +637,15 @@ else
   if parentShell == nil then
     shell.run("/rom/startup.lua")
   end
+    --djm horrible hack code
+  if not mbsShellRun then
+  local postStartup = ".mbs/postStartup.lua"
+    if fs.exists(postStartup) then
+        shell.run(postStartup)
+    end
+  end
+  mbsShellRun = true
+  --horrible hack code ends
 
   local history = shell.history()
   while not bExit do
