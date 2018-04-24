@@ -38,6 +38,9 @@ local function createShellEnv(sDir)
   elseif command then
     package.path = package.path..";/rom/modules/command/?;/rom/modules/command/?.lua;/rom/modules/command/?/init.lua"
   end
+  if settings.get("package.userPath") then
+     package.path = package.path..settings.get("package.userPath")
+  end
   package.config = "/\n;\n?\n!\n-"
   package.preload = {}
   package.loaders = {
